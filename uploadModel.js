@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const fs = require('fs');
-mongoose.connect('mongodb://arnatta@shctech.io:@liaruna787@stitch.mongodb.com:27020/?authMechanism=PLAIN&authSource=%24external&ssl=true&appName=files-gmxtz:mongodb-atlas:local-userpass');
+mongoose.connect('mongodb://Sweety:sweety1129@cluster0-shard-00-00-ojcxp.mongodb.net:27017,cluster0-shard-00-01-ojcxp.mongodb.net:27017,cluster0-shard-00-02-ojcxp.mongodb.net:27017/BankSystem?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true');
 const Schema = mongoose.Schema;
 
 mongoose.set('useCreateIndex', true);
